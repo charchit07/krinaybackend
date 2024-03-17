@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 
 app.use(cors());
 
-app.use("/", userRouter);
+app.use("/users", userRouter);
 
 app.use(authenticate);
 app.use("/", todoRouter);
