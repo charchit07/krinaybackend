@@ -18,6 +18,6 @@ app.use("/users", userRouter);
 app.use(authenticate);
 app.use("/", todoRouter);
 
-app.listen(7500, () => {
-  console.log("Server is running on port 7500");
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
 });
